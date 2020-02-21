@@ -1,0 +1,36 @@
+/* reset css */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* temporary */
+img {
+    width: 20%;
+}
+
+/* header */
+
+.navbar {
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.navbar__left .navbar__item{
+    text-decoration: none;
+    color: #000000;
+    padding-left: 15px;
+}
+
+.navbar__left .navbar__item:hover {
+    text-decoration: underline;
+}
