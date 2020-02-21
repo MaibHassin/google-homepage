@@ -18,6 +18,7 @@ img {
 
 /* header */
 
+/* navbar */
 .navbar {
     font-size: 13px;
     display: flex;
@@ -25,12 +26,60 @@ img {
     padding: 20px;
 }
 
-.navbar__left .navbar__item{
+.navbar__item {
     text-decoration: none;
-    color: #000000;
     padding-left: 15px;
 }
 
-.navbar__left .navbar__item:hover {
+.navbar__item:hover {
     text-decoration: underline;
+}
+
+/* navbar left */
+.navbar__left .navbar__item {
+    color: #000000;
+}
+
+/* navbar right */
+
+.navbar__right {
+    display: flex;
+    align-items: center;
+}
+
+.navbar__right .navbar__item {
+    color: rgba(0,0,0,0.87);
+}
+
+.navbar__right .navbar__item--checkbox {
+    display: none;
+}
+
+/* navbar right: apps icon */
+
+.navbar__right .navbar__item--apps__image {
+    height: 20px;
+    width: 20px;
+    background-image: url('https://www.shareicon.net/data/512x512/2015/08/19/87490_grid_512x512.png');
+    background-repeat: no-repeat;
+    background-size: 20px;
+}
+
+.navbar__right .navbar__item--apps__image:active {
+    opacity: 0.9;
+}
+
+/* navbar right: accoutn icon */
+
+.navbar__right .navbar__item--account__image {
+    height: 30px;
+    width: 30px;
+    background-image: url(https://lh3.googleusercontent.com/-JbGQaKRnR1A/AAAAAAAAAAI/AAAAAAAAAAA/AKF05nD4limOcbrXxolRDPtnLo7hd1liNQ.CMID/s32-c/photo.jpg);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    border-radius: 20px;
+}
+
+.navbar__right .navbar__item--account__image:active {
+    opacity: 0.9;
 }
