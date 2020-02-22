@@ -121,7 +121,7 @@ main {
 /* form field */
 .search {
     margin-top: 20px;
-    width: 40%;
+    width: 30%;
 }
 
 .search .search__field {
@@ -180,6 +180,7 @@ main {
     border: none;
     background-color: #f2f2f2;
     color: #5f6368;
+    text-decoration: none;
 }
 
 .search__submit .search__button:hover {
