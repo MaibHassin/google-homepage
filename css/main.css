@@ -48,7 +48,7 @@ img {
 }
 
 .navbar__right .navbar__item {
-    color: rgba(0,0,0,0.87);
+    color: rgba(0, 0, 0, 0.87);
 }
 
 .navbar__right .navbar__item--checkbox {
@@ -60,13 +60,18 @@ img {
 .navbar__right .navbar__item--apps__image {
     height: 20px;
     width: 20px;
-    background-image: url('https://www.shareicon.net/data/512x512/2015/08/19/87490_grid_512x512.png');
+    background-image: url(https://www.shareicon.net/data/512x512/2015/08/19/87490_grid_512x512.png);
     background-repeat: no-repeat;
     background-size: 20px;
+    cursor: pointer;
+}
+
+.navbar__right .navbar__item--apps__image:hover {
+    opacity: 0.9;
 }
 
 .navbar__right .navbar__item--apps__image:active {
-    opacity: 0.9;
+    opacity: 0.8;
 }
 
 /* navbar right: accoutn icon */
@@ -74,12 +79,112 @@ img {
 .navbar__right .navbar__item--account__image {
     height: 30px;
     width: 30px;
-    background-image: url(https://lh3.googleusercontent.com/-JbGQaKRnR1A/AAAAAAAAAAI/AAAAAAAAAAA/AKF05nD4limOcbrXxolRDPtnLo7hd1liNQ.CMID/s32-c/photo.jpg);
+    background-image: url(https://i2.wp.com/www.bhl-j.co.za/wp-content/uploads/revslider/home/M.png);
     background-repeat: no-repeat;
-    background-size: 30px;
+    background-position: center;
+    background-size: 17px;
+    background-color: rgb(63, 148, 70);
     border-radius: 20px;
+    cursor: pointer;
+}
+
+.navbar__right .navbar__item--account__image:hover {
+    opacity: 0.9;
 }
 
 .navbar__right .navbar__item--account__image:active {
-    opacity: 0.9;
+    opacity: 0.8;
+}
+
+/* Main */
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 150px;
+}
+
+/* logo */
+
+.logo {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo__image {
+    height: auto;
+    width: 300px;
+}
+
+/* form field */
+.search {
+    margin-top: 20px;
+    width: 35%;
+}
+
+.search .search__field {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border: 1px solid #e2e2e2;
+    height: 40px;
+    position: relative;
+    border-radius: 20px;
+}
+
+.search .search__field:hover {
+    -webkit-box-shadow: 0px 0px 2px 0px rgba(82, 82, 82, 1);
+    -moz-box-shadow: 0px 0px 2px 0px rgba(82, 82, 82, 1);
+    box-shadow: 0px 0px 2px 0px rgba(82, 82, 82, 1);   
+}
+.search .search__field .search__box {
+    margin: auto;
+    width: 80%;
+    height: 50%;
+    border: 0px;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.search .search__field .search__image {
+    height: 20px;
+    width: 5px;
+    position: absolute;
+}
+
+.search .search__field .search__image--search {
+    width: 18px;
+    left: 12px;
+}
+
+.search .search__field .search__image--voice {
+    width: 15px;
+    right: 12px;
+}
+
+/* search buttons */
+
+.search__submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search__submit .search__button {
+    margin: 10px;
+    margin-top: 35px;
+    padding: 14px;
+    border: none;
+    background-color: #f2f2f2;
+    color: #5f6368;
+}
+
+.search__submit .search__button:hover {
+    -webkit-box-shadow: 0px 0px 1px 0px rgb(0, 0, 0);
+    -moz-box-shadow: 0px 0px 1px 0px rgb(0, 0, 0);
+    box-shadow: 0px 0px 1px 0px rgb(0, 0, 0);   
 }
