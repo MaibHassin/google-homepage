@@ -1,0 +1,119 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 22px;
+    padding-bottom: 0;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+header .header__left {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 62%;
+}
+
+header .header__left .logo {
+    all: initial;
+}
+
+header .header__left .logo img{
+    height: auto;
+    width: 92px;
+}
+
+header .header__left .search {
+    margin: 0;
+    padding-left: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header .header__left .search .search__field .search__box {
+    margin-left: 15px;
+    width: 85%;
+}
+
+header .header__left .search .search__image--search {
+    width: 20px;
+    left: initial;
+    right: 15px;
+}
+
+header .header__left .search .search__image--voice {
+    right: 50px;
+}
+
+header .header__left .search .search__type {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 16px;
+    padding-top: 25px;
+}
+
+header .header__left .search .search__type .search__type--category {
+    display: flex;
+    align-items: center;
+}
+
+
+header .header__left .search .search__type .search__type--category__type {
+    display: flex;
+    margin-left: 20px;
+    padding-bottom: 10px;
+}
+
+header .header__left .search .search__type .search__type--selected {
+    border-bottom: 3px solid #1a73e8;
+    margin-left: 0;
+    padding-left: 3px;
+}
+header .header__left .search .search__type .search__type--category__type:hover svg {
+    fill: #1a73e8;
+}
+
+header .header__left .search .search__type .search__type--category__type:hover .search__type--category__type--text {
+    color: #1a73e8;
+}
+
+header .header__left .search .search__type .search__type--category__type svg {
+    height: auto;
+    width: 16px;
+    margin-right: 5px;
+    fill: #5f6368;
+}
+
+header .header__left .search .search__type .search__type--category .search__type--category__type--text {
+    text-decoration: none;
+    color: #5f6368;
+    font-size: 13px;
+}
+
+header .header__left .search .search__type .search__type--setting__type {
+    text-decoration: none;
+    font-size: 13px;
+    color: #5f6368;
+    padding: 5px;
+}
+
+header .header__left .search .search__type .search__type--setting__type--settings:hover {
+    color: #1a73e8;
+}
+
+header .header__left .search .search__type .search__type--setting__type--tools:hover {
+    background-color: #f2f2f2;
+    box-shadow: 0px 0px 1px 0px rgb(0, 0, 0); 
+}
+
+header .navbar__right {
+    margin-top: -50px;
+}
+
+header .navbar__right .navbar__item--apps__image:hover {
+    height: 25px;
+    width: 25px;
+    background-color: rgb(158, 158, 158);
+    background-position: center;
+    border-radius: 20px;
+}
