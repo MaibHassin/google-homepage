@@ -257,20 +257,20 @@ main {
 }
 
 /* feedback link */
-.results .results__related .results__related-feedback {
+.results .results__related-feedback {
     text-align: right;
     margin-top: 5px;
     margin-right: 3px;
 }
 
-.results .results__related .results__related-feedback .results__related--feedback__link {
+.results .results__related-feedback .results__related--feedback__link {
     text-decoration: none;
     color: #70757a;
     font-size: 12px;
     font-style: italic;
 }
 
-.results .results__related .results__related-feedback .results__related--feedback__link:hover {
+.results .results__related-feedback .results__related--feedback__link:hover {
     text-decoration: underline;
 }
 
@@ -495,6 +495,39 @@ main {
 
 .results .results__videos .results__videos--list .video__more:hover svg {
     fill: #222222;
+}
+
+/* results people asks */
+.results .results__people {
+    border: 1px solid #dfe1e5;
+    border-radius: 8px;
+}
+
+.results .results__people .people__title {
+    color: #222222;
+    font-size: 20px;
+    padding: 9px 16px;
+    margin: 0;
+}
+
+.results .results__people .people__question {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 9px 16px;
+    border-top: 1px solid #dfe1e5;
+    font-size: 16px;
+    color: #222222;
+}
+
+.results .results__people .people__question svg {
+    fill: #757575;
+    height: 24px;
+    width: 24px;
+}
+
+.results .results__people .people__question:hover {
+    cursor: pointer;
 }
 
 /* footer */
