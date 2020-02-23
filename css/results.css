@@ -201,3 +201,108 @@ main {
 .results__list .results__resultCard .results__links--internal__link:hover {
     text-decoration: underline;
 }
+
+/* related */
+/* related card */
+.results .results__related .results__related--item {
+    margin-top: 16px;
+}
+
+.results .results__related .results__related--card {
+    box-shadow: 0px 0px 1px 0px #3c4043;
+    padding: 10px 0;
+    border-radius: 8px;
+}
+
+.results .results__related .results__related--card .related__info {
+    color: #70757a;
+    font-size: 14px;
+    padding-left: 16px;
+    margin: 8px auto;
+}
+
+.results .results__related .results__related--card .related__title {
+    color: #222;
+    font-size: 20px;
+    font-weight: normal;
+    padding-left: 16px;
+    margin: 8px auto;
+}
+
+
+.results .results__related .results__related--card .related__links {
+    display: flex;
+}
+
+.results .results__related .results__related--card .related__links--app {
+    padding-left: 16px;
+    width: 90px;
+    overflow: hidden;
+    text-align: left;
+    color: #1a0dab;
+    font-size: 14px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.results .results__related .results__related--card .related__links--app img {
+    object-fit: cover;
+}
+
+.results .results__related .results__related--card .related__links--app:hover {
+    text-decoration: underline;
+}
+
+/* feedback link */
+.results .results__related .results__related-feedback {
+    text-align: right;
+    margin-top: 5px;
+    margin-right: 3px;
+}
+
+.results .results__related .results__related-feedback .results__related--feedback__link {
+    text-decoration: none;
+    color: #70757a;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.results .results__related .results__related-feedback .results__related--feedback__link:hover {
+    text-decoration: underline;
+}
+
+/* related list */
+.results .results__related .results__related--list {
+    padding-left: 16px;
+}
+
+.results .results__related .results__related--list .related__list--title {
+    color: #222222;
+    font-size: 20px;
+}
+
+.results .results__related .results__related--list .related__lists {
+    display: flex;
+}
+
+.results .results__related .results__related--list .related__lists ul {
+    list-style-type: none;
+    padding-left: 0;
+    padding-right: 32px;
+}
+
+.results .results__related .results__related--list .related__lists ul li {
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+.results .results__related .results__related--list .related__lists ul li a {
+    text-decoration: none;
+}
+
+
+.results .results__related .results__related--list .related__lists ul li a:hover {
+    text-decoration: underline;
+}
