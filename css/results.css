@@ -1,3 +1,7 @@
+body {
+    height: initial;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -367,3 +371,60 @@ main {
 .results .results__more .more-next {
     text-align: right;
 }
+
+/* footer */
+
+.footer {
+    position: initial;
+    padding-top: 32px;
+}
+
+.footer .footer__top {
+    display: flex;
+    align-items: center;
+}
+
+.footer .footer__top .footer__item--seperator {
+    margin: 5px;;
+}
+
+.footer .footer__top .footer__item--location {
+    padding-right: 16px;
+    border-right: 1px solid #e4e4e4;
+}
+
+.footer .footer__top .footer__item--location__detail::before {
+    content: '00';
+    border-radius: 100%;
+    margin-left: 15px;
+    margin-right: 5px;
+    color: #9e9e9e;
+    background-color: #9e9e9e;
+    font-size: 14px;
+}
+
+.footer .footer__top .footer__item--location__detail {
+    font-weight: bold;
+    color: #333333;
+    font-size: 14px;
+}
+
+.footer .footer__top .footer__item--info,
+.footer .footer__top .footer__item--precise,
+.footer .footer__top .footer__item--learn {
+    font-size: 14px;
+    color: #5f6368;
+}
+
+.footer .footer__top .footer__item--precise,
+.footer .footer__top .footer__item--learn {
+    text-decoration: none;
+}
+
+.footer .footer__top .footer__item--precise:hover,
+.footer .footer__top .footer__item--learn:hover,
+.footer .footer__bottom .footer__item:hover {
+    text-decoration: none;
+    color: #333333;
+}
+
