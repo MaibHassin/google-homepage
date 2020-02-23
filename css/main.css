@@ -53,11 +53,11 @@ body {
 /* navbar right: apps icon */
 
 .navbar__right .navbar__item--apps__image {
-    height: 20px;
-    width: 20px;
-    background-image: url(https://www.shareicon.net/data/512x512/2015/08/19/87490_grid_512x512.png);
+    height: 25px;
+    width: 25px;
+    /* background-image: url(https://www.shareicon.net/data/512x512/2015/08/19/87490_grid_512x512.png);
     background-repeat: no-repeat;
-    background-size: 20px;
+    background-size: 20px; */
     opacity: 0.7;
     cursor: pointer;
 }

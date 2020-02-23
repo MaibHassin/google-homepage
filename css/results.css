@@ -116,8 +116,6 @@ header .navbar__right {
 }
 
 header .navbar__right .navbar__item--apps__image:hover {
-    height: 25px;
-    width: 25px;
     background-color: rgb(158, 158, 158);
     background-position: center;
     border-radius: 20px;
@@ -300,9 +298,72 @@ main {
 
 .results .results__related .results__related--list .related__lists ul li a {
     text-decoration: none;
+    color: #1a0dab;
 }
 
 
 .results .results__related .results__related--list .related__lists ul li a:hover {
     text-decoration: underline;
+}
+
+/* more results */
+
+
+.results .results__more {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.results .results__more .more_G {
+    background: url(https://www.google.com/images/nav_logo299.webp) no-repeat;
+    background-position: -24px 0;
+    width: 28px;
+    height: 40px;
+}
+
+.results .results__more .more-o-1 .red-O {
+    background: url(https://www.google.com/images/nav_logo299.webp) no-repeat;
+    background-position: -53px 0;
+    width: 20px;
+    height: 40px;
+}
+
+.results .results__more .more-o-n .yellow-O {
+    background: url(https://www.google.com/images/nav_logo299.webp) no-repeat;
+    background-position: -74px 0;
+    width: 20px;
+    height: 40px;
+}
+
+.results .results__more .more-next .gle-next {
+    background: url(https://www.google.com/images/nav_logo299.webp) no-repeat;
+    background-position: -96px 0;
+    width: 71px;
+    height: 40px;
+}
+
+.results .results__more a {
+    text-decoration: none;
+    color: #4285f4;
+    font-size: 14px;
+}
+
+.results .results__more .more-o-1 a {
+    color: rgba(0,0,0,0.87);
+}
+
+.results .results__more .more-o-1,
+.results .results__more .more-o-n {
+    text-align: center;
+}
+
+.results .results__more .more-o-n:hover,
+.results .results__more .more-next:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.results .results__more .more-next {
+    text-align: right;
 }
